@@ -32,3 +32,8 @@ const SidebarItem: FC<SidebarItemProps> = ({
 };
 
 export default SidebarItem;
+
+// {twMerge(
+//   `flex flex-row h-auto items-center w-fulltext-md font-medium cursor-pointer hover:text-white transition text-neutral-400 py-1`,
+//   active && "text-white"
+// )}

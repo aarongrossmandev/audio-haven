@@ -26,6 +26,7 @@ const SearchInput = () => {
     <Input
       placeholder="What do you want to listen to?"
       value={value}
+      // @ts-ignore
       onChange={(e: any) => setValue(e.target.value)}
     />
   );
